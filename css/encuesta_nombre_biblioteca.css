@@ -1,0 +1,529 @@
+ /*------------------------------------*\
+  #VALIDACION DNI
+\*------------------------------------*/
+
+.dni input, .nie input {
+	width: 250px !important;
+}
+
+.tipo_documento select {
+	width: 250px !important;
+}
+
+.li_mensaje_validacion {
+	float:left;
+	width: auto;
+	margin-top: 20px;
+	clear: none !important;
+}
+
+.btn_validar {
+	float: left;
+	width: 100px;
+}
+
+.contenedor_mensaje {
+	display: none;
+	padding: 25px;
+	margin-right: 10px;
+	background-color: #ff8c8c;
+	color: #000000;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+.mensaje_error {
+	display: none;
+	background-color: #ffffff;
+	padding: 15px;
+	color: #d30000;
+	font-weight: bold;
+	font-size: 1.2em;
+	border: 1px solid #999999;
+}
+
+.mensaje_ok {
+	display: none;
+	background-color: #ffffff;
+	padding: 15px;
+	color: #309100;
+	font-weight: bold;
+	font-size: 1.2em;
+	border: 1px solid #999999;
+}
+
+.mensaje_error_ico {
+	float: left;
+	width: 60px;
+}
+
+.mensaje_error_texto {
+	float: left;
+	margin-top: 5px;
+}
+
+.mayusculas input {
+    text-transform: uppercase !important;
+}
+
+
+
+
+
+
+/*------------------------------------*\
+  #BOTONES
+\*------------------------------------*/
+
+
+.btn-primary, .gform_button {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  padding: 10px;
+}
+
+.gform_button {
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 20px !important;
+ font-size: 1.2em !important;
+}
+
+.gform_footer, .gform_page_footer {
+  text-align: center !important;
+}
+
+.gform_footer {
+	background-color: #efefef;
+	margin-top: 30px;
+	padding: 15px;
+}
+
+.btn-danger {
+	background-color: #ff1100 !important;
+}
+
+.btn-danger:hover {
+	background-color: #db1304 !important;
+}
+
+#btn_borrar {
+ /* background-color: #ff1100;*/
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+
+
+
+/*------------------------------------*\
+  #CAMBIOS ELEMENTOS GRAVITY
+\*------------------------------------*/
+
+.gform_title {
+  font-size: 1.6em !important;
+}
+
+.gform_heading {
+  background-color: #efefef;
+  padding: 10px 20px 1px 30px;
+  display: none;
+}
+
+.et_post_meta_wrapper{
+  display: none;
+}
+
+.gform_body {
+	/*line-height: 1em !important;*/
+}
+
+
+
+
+
+/*------------------------------------*\
+  #GENERICOS
+\*------------------------------------*/
+
+.clear-both {
+  clear: both;
+}
+
+.borde-sinderecha {
+  border-top:      1px solid #999;
+  border-left:      1px solid #999;
+  border-bottom: 1px solid #999;
+}
+
+.borde-derecha {
+  border-right: 1px solid #999;
+}
+
+
+
+
+
+/*------------------------------------*\
+  #GENERICOS
+\*------------------------------------*/
+
+.entradilla h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+
+
+
+/*------------------------------------*\
+  #CAJA PRIORIDADES
+\*------------------------------------*/
+
+.prioridades {
+  width: 70%;
+  padding: 5px;
+  margin: 0 auto 20px auto;
+  border:dotted 2px #bd0000;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+}
+
+  .prioridades__prioridad {
+    float: left;
+    width: 33%;
+    margin: 0;
+  }
+  
+  .prioridades__numprioridad {
+    padding: 5px;
+	background-color: #ff1100;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1em;
+	color: #ffffff;
+	line-height: 1em;
+  }
+  
+  .prioridades__nombre {
+    padding: 5px;
+    background-color: #efefef;
+	color: #444;
+	text-align: center;
+	font-weight: bold;
+	line-height: 1em;
+	min-height: 30px;
+	vertical-align: middle;
+  }
+  
+  .prioridades__imagen img {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+	margin: auto;
+  }
+  
+   .prioridades__imagen {
+    background-image: url("https://encuestasciudadanas.rivasciudad.es/wp-content/uploads/2017/05/nombiblioteca_interrogante.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+	background-position: center; 
+	text-align: center;
+	line-height: 0;
+  }
+  
+  .prioridad__borrar {
+    text-align: center;
+	margin-bottom: 40px;
+  }
+  
+  
+  
+/*------------------------------------*\
+  #TEXTO CABECERA
+\*------------------------------------*/
+
+.texto_cabecera {
+  clear: both;
+  margin: 80px auto auto auto;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.1em;
+  width: 60%;
+}
+
+
+
+
+
+ /*------------------------------------*\
+  #LISTA ESCRITORAS
+\*------------------------------------*/
+
+.lista {
+  width: 80%;
+  margin: auto;
+}
+  .lista__elemento {
+    float: left;
+	width:23%;
+	margin: 1% 1% 5% 1%;
+	border: 1px solid #999;
+	cursor: pointer;
+	cursor: hand;
+	
+  }
+  
+  .lista__nombre {
+    padding: 5px;
+	background-color: #efefef;
+	font-size: 0.8em;
+	text-align: center;
+	font-weight: bold;
+	line-height: 1em;
+	min-height: 35px;
+  }
+  
+  .lista__voto {
+    padding: 0;
+	border: 0;
+  }
+
+   .lista__voto input{
+      padding: 0;
+      border: 0;
+	  width: 100%;
+  }
+  
+  .lista__imagen {
+    text-align: center;
+	line-height: 0;
+  }
+  
+  .lista__voto input {
+    font-size: 12px;
+  }
+
+
+
+
+
+/*------------------------------------*\
+  #POPUP
+\*------------------------------------*/
+
+  .ficha{
+   	font-size: 1em;
+    line-height: 1em;		
+  }
+  
+  .ficha__imagen{
+	
+  }
+  
+  .ficha__nombre{
+    margin-top: 10px;
+	padding: 10px;
+	background-color: #efefef;
+	font-weight: bold;
+  }
+  
+  .ficha__texto{
+    padding: 10px;
+	padding: 10px;
+	margin-top: 10px;
+	line-height: 1.5em;
+	margin-bottom: 10px;
+  }
+
+  .ficha__enlaces{
+    padding: 10px;	
+  }
+  
+  .ficha__masinfo{
+    background-color: #d6e0e8;
+	padding: 6px;
+	text-align: center;
+  }
+  
+  .popup_mensaje {
+    text-align: center;
+	font-size: 1.3em;
+	font-weight: bold;
+	padding: 10px;
+  }
+  
+  
+
+@media only screen and (max-width: 1024px) {
+  .lista__elemento {
+	width:30%;	
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .lista__elemento {
+	width:40%;	
+  }
+
+  .lista {
+    width: 100%;
+    margin: auto;
+  }
+  
+  .prioridades {
+    width: 100%;
+  }
+  
+  .prioridades__nombre {
+	font-size: 12px;
+	min-height: 40px;
+  }
+  
+  .lista__voto input {
+    font-size: 12px;
+  }
+  
+  .ficha{
+    font-size: 12px;	
+  }
+  
+  .ficha__masinfo {
+	font-size: 12px;
+  }
+  
+  .remodal {
+    padding: 10px !important;
+  }
+  
+}
+
+@media only screen and (max-width: 480px) {
+  .lista__elemento {
+	width:100%;	
+  }
+  
+  .lista {
+    width: 65%;
+    margin: auto;
+  }
+  
+  .lista__elemento {
+	margin-bottom: 30px;
+  }
+  
+  .prioridades {
+    width: 100%;
+  }
+  
+  .prioridades__nombre, .prioridades__numprioridad, .lista__voto, .ficha__masinfo {
+	font-size: 11px;
+  }
+  
+  .et_pb_row {
+   width: 100% !important;
+  }
+  
+  .gform_fields {
+    padding-left: 0 !important;
+  }
+  
+  .entradilla h2 {
+     font-size: 12px;
+  }
+  
+  
+  .texto_cabecera p{
+     font-size: 14px;
+     line-height: 1.1em;
+  }
+  
+  .texto_cabecera {
+     width: 100%;
+  }
+
+  .ficha{
+    font-size: 11px;	
+  }
+  
+  .remodal {
+    padding: 8px !important;
+  }
+  
+}
+
+@media only screen and (max-width: 330px) {
+
+  .lista__elemento {
+	width:100%;	
+  }
+  
+  .lista {
+    width: 65%;
+    margin: auto;
+  }
+  
+  .lista__elemento {
+	margin-bottom: 30px;
+  }
+  
+  .prioridades {
+    width: 100%;
+  }
+  
+  .prioridades__nombre, .prioridades__numprioridad, .lista__voto, .ficha__masinfo {
+	font-size: 10px;
+  }
+    
+  .et_pb_row {
+    width: 100% !important;  
+  }
+  
+  .gform_fields {
+    padding-left: 0 !important;
+  }
+  
+	.entradilla h2 {
+	  font-size: 12px;
+	}
+	
+	.texto_cabecera p{
+	  font-size: 14px;
+	  line-height: 1.1em;
+	}
+	
+	.texto_cabecera {
+      width: 100%;
+	}
+	
+  .ficha{
+    font-size: 10px;	
+  }
+  
+  .remodal {
+    padding: 8px !important;
+  }
+}
+
+
