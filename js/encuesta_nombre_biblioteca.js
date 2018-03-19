@@ -601,9 +601,9 @@ function buscaDniNie(documento,fechanac) {
 	jQuery('#mensaje_validacion').html('<div class="mensaje_error_ico"><img src="https://encuestasciudadanas.rivasciudad.es/wp-content/uploads/2017/04/animation_loading-1.gif" width="50" border="0"></div><div class="mensaje_error_texto">Validando datos...</div><div style="clear: both;"></div>');
 
 	//llamada ajax al webservice
-	//var url = "http://10.194.100.140/mgdbq2json/wp-json/mg-dbq2json/v1/services?s=padron_dni&u=GFhHGlB9v2mD&dni=" + documento + "&fechanac=" + fechanac;
+	//var url = "http://10.194.100.140/json/wp-json/mg-dbq2json/v1/services?s=padron_dni&u=3gawegwegr65&dni=" + documento + "&fechanac=" + fechanac;
 	
-	var url = "http://10.194.100.140/mgdbq2json/wp-json/mg-dbq2json/v1/services?s=padron_dni_barrio&u=GFhHGlB9v2mD&dni=" + documento + "&fechanac=" + fechanac;
+	var url = "http://10.194.100.140/mgdbq2json/wp-json/json/v1/services?s=padron_dni_barrio&u=34tergeg2&dni=" + documento + "&fechanac=" + fechanac;
 	
 	var parametros = {"url" : url};
 	
